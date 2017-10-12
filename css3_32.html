@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			div {
+				width: 100px;
+				height: 75px;
+				background-color: red;
+				border: 1px solid black;
+			}
+			
+			#div2 {
+				/*skewX(<angle>);表示只在X轴(水平方向)倾斜。
+    			skewY(<angle>);表示只在Y轴(垂直方向)倾斜。*/
+				transform: skew(30deg, 20deg);
+				-ms-transform: skew(30deg, 20deg);
+				/* IE 9 */
+				-webkit-transform: skew(30deg, -20deg);
+				/* Safari and Chrome */
+			}
+		</style>
+		<title></title>
+	</head>
+
+	<body>
+
+		<div>Hello. This is a DIV element.</div>
+
+		<div id="div2">Hello. This is a DIV element.</div>
+
+	</body>
+
+</html>
